@@ -4,7 +4,7 @@
 }
 
 header, body, footer {
-	font-size: 14px;
+	font-size: 12px;
 	font-family: 나눔고딕, 굴림, 돋음;
 	width: 100%;
 }
@@ -40,11 +40,6 @@ h3 {
 	text-shadow: 4px 4px 7px green;
 }
 
-h1, h2 {
-	background-image: url(bg.jpg);
-	background-repeat: repeat-x;
-}
-
 img {
 	border: 0;
 	padding: 2px;
@@ -66,8 +61,20 @@ nav > span > a {
 }
 
 nav > span > a:hover {
-	background: : #ff00ff;
+	background: #ff00ff;
 	color: white;
+}
+
+#introSound {
+	margin: 0;
+	padding: 3px;
+	float: right;
+}
+
+#banner {
+	background-image: url("img/bg.jpg");
+	background-position: center center;
+	height: 80px;
 }
 
 @media only screen and (min-width: 321px) and (orientation: landscape) {
@@ -93,7 +100,7 @@ nav > span > a:hover {
 
 .section1 ul li {
 	list-style-position: inside;
-	list-style-image: url("li.jpg");
+	list-style-image: url("li.img");
 }
 
 #stu-pic {
